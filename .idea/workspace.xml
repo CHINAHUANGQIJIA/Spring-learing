@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="spring-beans.schema" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +37,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ioc/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ioc/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,18 +56,19 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProgramFiles\JetBrains\Spring-sty\spring-learming\ioc\src\main\resources" />
+      <recent name="D:\ProgramFiles\JetBrains\Spring-sty\spring-learming" />
       <recent name="D:\ProgramFiles\JetBrains\Spring-sty\spring-learming\ioc\src" />
       <recent name="D:\ProgramFiles\JetBrains\Spring-sty\spring-learming\ioc\src\main\java\com\soft1851\spring\ioc\app" />
-      <recent name="D:\ProgramFiles\JetBrains\Spring-sty\spring-learming\ioc\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.App" />
+  <component name="RunManager" selected="JUnit.PhoneTest.print">
+    <configuration name="GoStudentText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.GoStudentText" />
       <module name="ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.*" />
+          <option name="PATTERN" value="com.soft1851.spring.ioc.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,9 +76,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.ioc.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.entity.PhoneTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.ioc.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.entity.PhoneTest" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.ioc.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.entity" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.entity.StudentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.ioc.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.app" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.UserLoginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PhoneTest.print" />
+        <item itemvalue="JUnit.PhoneTest" />
+        <item itemvalue="Application.GoStudentText" />
+        <item itemvalue="JUnit.StudentTest" />
+        <item itemvalue="JUnit.UserLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584404484468</updated>
-      <workItem from="1584404487277" duration="2991000" />
+      <workItem from="1584404487277" duration="7103000" />
     </task>
     <servers />
   </component>
@@ -118,30 +184,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584407248049" />
+    <state x="102" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1584411469092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="102" y="136" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584411469092" />
     <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584407397604">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="271" width="439" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584407397604" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584409545254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584409545254" />
     <state x="137" y="171" key="FileChooserDialogImpl" timestamp="1584404862067">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="137" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584404862067" />
-    <state width="651" height="2" key="GridCell.Tab.0.bottom" timestamp="1584406297124">
+    <state width="1493" height="515" key="GridCell.Tab.0.bottom" timestamp="1584411613427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="651" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584406297124" />
-    <state width="651" height="2" key="GridCell.Tab.0.center" timestamp="1584406297124">
+    <state width="1493" height="515" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584411613427" />
+    <state width="1493" height="515" key="GridCell.Tab.0.center" timestamp="1584411613426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="651" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584406297124" />
-    <state width="651" height="2" key="GridCell.Tab.0.left" timestamp="1584406297124">
+    <state width="1493" height="515" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584411613426" />
+    <state width="1493" height="515" key="GridCell.Tab.0.left" timestamp="1584411613426">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="651" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584406297124" />
-    <state width="651" height="2" key="GridCell.Tab.0.right" timestamp="1584406297124">
+    <state width="1493" height="515" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584411613426" />
+    <state width="1493" height="515" key="GridCell.Tab.0.right" timestamp="1584411613427">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="651" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584406297124" />
+    <state width="1493" height="515" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584411613427" />
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1584410800129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584410800129" />
+    <state width="1493" height="252" key="GridCell.Tab.1.center" timestamp="1584410800129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584410800129" />
+    <state width="1493" height="252" key="GridCell.Tab.1.left" timestamp="1584410800129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584410800129" />
+    <state width="1493" height="252" key="GridCell.Tab.1.right" timestamp="1584410800129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584410800129" />
     <state x="-57" y="2" width="1171" height="822" key="SettingsEditor" timestamp="1584406280009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
