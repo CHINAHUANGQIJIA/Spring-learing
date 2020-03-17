@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="com.soft1851.spring.ioc.config"/>
     <bean id="phone" class="com.soft1851.spring.ioc.entity.Phone">
         <property name="brand">
             <list>
@@ -47,5 +49,30 @@
                 <value>打打球</value>
             </list>
         </property>
+        <property name="type">
+            <set>
+                <value>绿色</value>
+                <value>黄色</value>
+                <value>灰色</value>
+            </set>
+        </property>
+        <property name="age">
+            <map>
+                <entry>
+                    <key><value>研发1</value></key>
+                    <value>Java开发工程师</value>
+                </entry>
+                <entry>
+                    <key><value>研发2</value></key>
+                    <value>Php开发工程师</value>
+                </entry>
+                <entry>
+                    <key><value>研发3</value></key>
+                    <value>Ruby开发工程师</value>
+                </entry>
+            </map>
+
+        </property>
+
     </bean>
 </beans>
