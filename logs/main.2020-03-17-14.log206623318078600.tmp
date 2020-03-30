@@ -1,1 +1,0 @@
-2020-03-17.14:31:41 INFO  [main] com.soft1851.spring.ioc.app.GoStudentText.main:16  GoStudent{id=1, name='Tom', hobbies=[打打游戏, 听听歌, 打打球], type=[绿色, 黄色, 灰色], age={研发1=Java开发工程师, 研发2=Php开发工程师, 研发3=Ruby开发工程师}}
